@@ -1,0 +1,12 @@
+h3 {
+  font-family: times-new-roman;
+  color: white;
+  font-size: 30px;
+}
+body {
+  background-image: url("https://images.pexels.com/photos/462030/pexels-photo-462030.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: cover;
+}
+.round {
+  border-radius: 10px 5px;
+}
