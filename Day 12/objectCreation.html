@@ -1,0 +1,32 @@
+<!--
+JS is an object-based language and in JS almost everything is an object or acts like an object.
+A JS object is just a collection of named values. These named values are usually referred to as
+properties of te object.
+An object can be created with curly brackets {} with an optional list of properties. A property is a
+"key: value" pair, where key(or property name) is always a string, and value(or property value) can
+be datatype, like strings, numbers, booleans or arrays, functions, and other objects.
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var person = {
+        name: "Seema",
+        age: 21,
+        gender: "Female",
+        displayName: function() {
+          alert(this.name);
+        }
+      };
+      document.write(person.name + "<br>");
+      document.write(person.age + "<br>");
+      document.write(person.gender + "<br>");
+      console.log(person);
+      </script>
+  </body>
+</html>

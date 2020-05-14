@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Test</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="project.css">
+
+    <nav class="w3-bar w3-black">
+      <a href="#home" class="w3-button w3-bar-item">Home</a>
+      <a href="#progress" class="w3-button w3-bar-item">Progress</a>
+      <a href="track" class="w3-button w3-bar-item">Track</a>
+      <a href="contact" class="w3-button w3-bar-item">Contact Me</a>
+      </nav>
+
+      <section>
+        <img class="mySlides" src="C:\Users\HP\Pictures\downloads\Download-Motivation-Photo-Free.jpg" style="width:100%">
+        <img class="mySlides" src="C:\Users\HP\Pictures\downloads\quote-wallpaper_8.jpg" style="width:100%">
+        <img class="mySlides" src="C:\Users\HP\Pictures\downloads\148469.jpg" style="width:100%">
+        </section>
+
+        <script type="text/javascript">
+          var myIndex = 0;
+          carousel();
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0;i < x.length;i++) {
+              x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel,3000);
+          }
+        </script>
+
+        <section class="w3-container w3-center" style="max-width:600px">
+          <h2 class="w3-wide">QUOTES</h2>
+          <p class="w3-opacity"><i>My favourite quotes.</i></p>
+          </section>
+
+          <section class="w3-container w3-content w3-center" style="max-width:600px">
+              <p class="w3-justify">
+                These are some of my favourite quotes, I follow.
+              </p>
+          </section>
+
+          <footer class="w3-container w3-padding-64 w3-center w3-blacl w3-xlarge">
+            <a href="#"><i class="fa fa-facebook-official"></i></a>
+            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            </footer>
+  </body>
+</html>
