@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/seema1711/My100DaysOfCode.git/static/css/main.5f361e03.chunk.css",
+    "main.js": "/seema1711/My100DaysOfCode.git/static/js/main.368309fe.chunk.js",
+    "main.js.map": "/seema1711/My100DaysOfCode.git/static/js/main.368309fe.chunk.js.map",
+    "runtime-main.js": "/seema1711/My100DaysOfCode.git/static/js/runtime-main.517c9c57.js",
+    "runtime-main.js.map": "/seema1711/My100DaysOfCode.git/static/js/runtime-main.517c9c57.js.map",
+    "static/js/2.e02d68d0.chunk.js": "/seema1711/My100DaysOfCode.git/static/js/2.e02d68d0.chunk.js",
+    "static/js/2.e02d68d0.chunk.js.map": "/seema1711/My100DaysOfCode.git/static/js/2.e02d68d0.chunk.js.map",
+    "index.html": "/seema1711/My100DaysOfCode.git/index.html",
+    "precache-manifest.74344e77c903db08fac52efd7e14ad50.js": "/seema1711/My100DaysOfCode.git/precache-manifest.74344e77c903db08fac52efd7e14ad50.js",
+    "service-worker.js": "/seema1711/My100DaysOfCode.git/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/seema1711/My100DaysOfCode.git/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.e02d68d0.chunk.js.LICENSE.txt": "/seema1711/My100DaysOfCode.git/static/js/2.e02d68d0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.517c9c57.js",
+    "static/js/2.e02d68d0.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.368309fe.chunk.js"
+  ]
+}
